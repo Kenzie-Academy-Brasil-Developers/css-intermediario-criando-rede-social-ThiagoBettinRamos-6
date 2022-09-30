@@ -1,0 +1,21 @@
+#divModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    min-width: 100vh;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.719) ;
+    font-family: 'Inter', sans-serif;
+}
+.container-modal{
+    background-color: #fff;
+    width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}

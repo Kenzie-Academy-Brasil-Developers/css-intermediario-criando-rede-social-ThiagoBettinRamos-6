@@ -33,6 +33,7 @@ const users = [
   {
     id: 6,
     user: "Filipe Gutierry",
+    stack: "Full Stack Developer",
     img: "../../assets/img/user7.svg",
   },
   {

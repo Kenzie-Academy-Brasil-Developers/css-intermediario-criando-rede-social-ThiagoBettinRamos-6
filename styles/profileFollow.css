@@ -1,0 +1,22 @@
+.sticky {
+    position: fixed;
+    top: 140px;
+    right: 40px;
+    /* max-height: 100%;
+    width: 500px;
+    border: 2px solid black; */
+    
+}
+.profileAside{
+    width: 500px;
+    max-height: 363px;
+    display: flex;
+    flex-direction: column;
+}
+.persons{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}   

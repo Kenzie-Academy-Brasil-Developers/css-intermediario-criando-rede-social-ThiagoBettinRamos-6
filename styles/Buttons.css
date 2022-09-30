@@ -1,0 +1,40 @@
+#submitPost{
+    border: 1px solid transparent;
+    color: var(--color-white-fixed);
+    background-color: var(--color-button);
+    cursor: pointer;
+    width: var(--button-width);
+    height: var(--button-height);
+    border-radius: var(--radius-1);
+}
+#buttonView{
+    border: 1px solid transparent;
+    color: var(--color-white-fixed);
+    background-color: var(--color-grey-1);
+    cursor: pointer;
+    width: var(--button-width);
+    height: var(--button-height);
+    border-radius: var(--radius-1);
+    margin-top: 10px;
+}
+#close{
+    border: 1px solid transparent;
+    color: var(--color-white-fixed);
+    background-color: var(--color-button);
+    cursor: pointer;
+    width: var(--button-width);
+    height: var(--button-height);
+    border-radius: var(--radius-1);
+}
+.followButton{
+    width: var(--button-width);
+    height: var(--button-height);
+    border-radius: var(--radius-1);
+    background-color: var(--color-button);
+    color: aliceblue;
+    border: transparent;
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    
+}

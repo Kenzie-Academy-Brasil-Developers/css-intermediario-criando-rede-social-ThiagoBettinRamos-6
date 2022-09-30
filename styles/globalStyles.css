@@ -10,20 +10,60 @@
     --color-grey-1: #212529;
     --color-grey-2: #495057;
     --color-white-fixed: #ffffff;
+    --color-button: #4263Eb;
     --radius-1: 0.25rem;
+    --button-width : 4.5rem;
+    --button-height : 2.375rem;
     --font-family-1: "Inter", sans-serif;
 }
 
 body{
     font-family: var(--font-family-1);
+    padding: 90px;
+    position: relative;
 }
-
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
+.navigation{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    max-width: 1300px;
+    margin: 0 auto; 
+    pad: 5px;
+    margin-top: 10px;
+    height: 450px;
 }
-
 ul{
-    list-style: none;
+    list-style: none; 
+    
+}
+ul li{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    max-width: 700px;
+    
+}
+.images{
+    height: 52px;
+    width: 52px;
+}
+h4{
+    font-weight: 400;
+}
+p{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}
+section{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 100px;
 }

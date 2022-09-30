@@ -1,0 +1,35 @@
+@media (max-width: 700px){
+    .fixed{margin-top: 8.5rem;}
+    body{
+        max-width: 25rem;
+        padding: 0.625rem;
+        margin-top: 6.25rem;
+    };
+    header{
+        width: 25rem;
+    }
+    .profileAside{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 43.75rem;
+        margin: 0 auto; 
+        pad: 0.313rem;
+        margin-top: 0.625rem;
+        height: 28.125rem;
+    }
+    section ul{
+        width: 26.25rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container-modal{
+        min-height: 18.75rem;
+        min-width: 18.75rem;
+    }
+}
